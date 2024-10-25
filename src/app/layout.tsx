@@ -1,4 +1,7 @@
-import './globals.css';
+import "./globals.css"
+
+import AnnouncementBar from "@/components/AnnouncementBar"
+
 export const metadata = {
   title: 'eCommerce',
   description: '',
@@ -11,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <AnnouncementBar announcementText="20% off on many product. Shop now." />
+        {children}
+      </body>
     </html>
   )
 }

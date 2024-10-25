@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# eCommerce Next.js
 
-## Getting Started
+An eCommerce web application built with Next.js, Tailwind CSS, and TypeScript. This project aims to provide a functional, responsive eCommerce platform with essential shopping features and an elegant UI based on a Figma design.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- **Product Listing and Details**: Browse and view details of available products.
+- **Shopping Cart**: Add, update, and remove items in the cart.
+- **Responsive Design**: Optimized for both desktop and mobile views.
+- **Efficient Navigation**: Next.js provides fast navigation with pre-rendered pages and optimized images.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js**: For server-side rendering and optimized page performance.
+- **Tailwind CSS**: For streamlined, responsive styling.
+- **TypeScript**: For improved code quality and better development experience.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To get a local copy up and running, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/ecommerce-nextjs.git
+   ```
+   
+2. **Install dependencies**:
+   ```bash
+   # Using npm
+   npm install
+   
+   # OR using yarn
+   yarn install
+   ```
+
+3. **Run the application**:
+   ```bash
+   # Using npm
+   npm run dev
+   
+   # OR using yarn
+   yarn dev
+   ```
+
+The application will be accessible at \`http://localhost:3000\`.
+
+---
+
+## Acknowledgements
+
+This project is based on a Figma design by [Hamza Naeem](mailto:hamzanaeem778@gmail.com). You can view the original Figma file [here](https://www.figma.com/community/file/1273571982885059508).
+
+---
+
+## Contact
+
+Developer: Muhammad Abdul Rehman  
+Email: [dev.mabdulrehman@gmail.com](mailto:dev.mabdulrehman@gmail.com)

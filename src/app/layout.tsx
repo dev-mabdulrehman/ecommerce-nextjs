@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar"
 import "./globals.css"
 
 import AnnouncementBar from "@/components/AnnouncementBar"
@@ -14,8 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="group/main-body">
         <AnnouncementBar announcementText="20% off on many product. Shop now." />
+        <Navbar />
         {children}
       </body>
     </html>

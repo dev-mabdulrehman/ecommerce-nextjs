@@ -42,9 +42,9 @@ const Navbar = () => {
                             ))}
                         </ul>
                     </section>
-                    <section className='flex ml-auto gap-4 lg:gap-10 items-center'>
+                    <section className='flex w-full ml-auto gap-4 lg:gap-10 items-center'>
                         <SearchBar />
-                        <section className='flex items-center flex-shrink-0'>
+                        <section className='flex items-center ml-auto flex-shrink-0'>
                             <button className='overflow-hidden flex md:hidden rounded-full hover:bg-gray-100 p-2'>
                                 <Image alt="Cart Icon" src={searchIcon} width={20} height={20} />
                             </button>

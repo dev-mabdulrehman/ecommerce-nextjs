@@ -19,6 +19,10 @@ const config: Config = {
 					'2xl': '1536px',
 				},
 			},
+			fontFamily: {
+				'integral-cf': ['IntegralCF', 'sans-serif'],
+				satoshi: ['Satoshi', 'sans-serif'],
+			},
 		},
 	},
 	plugins: [],

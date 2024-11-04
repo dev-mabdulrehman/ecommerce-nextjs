@@ -10,3 +10,158 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi/Satoshi-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi/Satoshi-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi/Satoshi-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi/Satoshi-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi/Satoshi-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi/Satoshi-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi/Satoshi-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi/Satoshi-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi/Satoshi-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi/Satoshi-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/fonts/Integralcf/Integralcf-regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/fonts/Integralcf/Integralcf-regularoblique.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/fonts/Integralcf/Integralcf-medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/fonts/Integralcf/Integralcf-mediumoblique.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/fonts/Integralcf/Integralcf-semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/fonts/Integralcf/Integralcf-semiboldoblique.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/fonts/Integralcf/Integralcf-bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/fonts/Integralcf/Integralcf-boldoblique.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/fonts/Integralcf/Integralcf-extrabold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/fonts/Integralcf/Integralcf-extraboldoblique.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/fonts/Integralcf/Integralcf-heavy.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/fonts/Integralcf/Integralcf-heavyoblique.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+

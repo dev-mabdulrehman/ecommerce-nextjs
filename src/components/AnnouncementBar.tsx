@@ -17,7 +17,7 @@ export default function AnnouncementBar(props: Props) {
     }, [props])
 
     return isVisible && (
-        <div className="bg-black">
+        <div className="bg-black font-satoshi">
             <section className="container text-sm flex items-center justify-between text-white py-2">
                 <div className="w-5"></div>
                 {props?.announcementText}

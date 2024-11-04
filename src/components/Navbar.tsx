@@ -33,8 +33,8 @@ const Navbar = () => {
                 <nav className='grid grid-cols-2 items-center container'>
                     <section className='flex items-center gap-4 lg:gap-10 py-6'>
                         <MenuToggler />
-                        <h2 className='text-3xl font-bold uppercase'>Logo</h2>
-                        <ul className='hidden items-center gap-6 lg:flex'>
+                        <h2 className='text-3xl font-bold font-integral-cf uppercase'>SHOP.CO</h2>
+                        <ul className='hidden font-satoshi items-center gap-6 lg:flex'>
                             {routes.map((route, routeIdx) => (
                                 <li key={`${route.text}${routeIdx}`}>
                                     <Link className='text-black/60 transition-all hover:text-black' href={route.href}>{route.text}</Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
                         <MenuToggler type='close' />
                     </div>
                     <nav>
-                        <ul className='flex flex-col'>
+                        <ul className='flex font-satoshi flex-col'>
                             {routes.map((route, routeIdx) => (
                                 <li key={`${route.text}${routeIdx}`}>
                                     <Link className='text-black/60 p-4 block hover:bg-gray-300 transition-all hover:text-black' href={route.href}>{route.text}</Link>
